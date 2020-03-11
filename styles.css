@@ -76,11 +76,15 @@ body {
     width: 50%;
   }
 
-  .animet img, .pelit img {
+  .animet img {
     width: 87%;
   }
+  
+  .pelit img  {
+    width: 95%;
+  }
 
-  .animet p {
+  .animet p, .pelit {
     font-family: 'Open Sans Condensed', sans-serif;
     height: 30px;
     font-weight: 600;
