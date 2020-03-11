@@ -19,15 +19,18 @@ body {
 
 .ylapalkkki {
     overflow: hidden; /* Hide overflow */
-    background-color: #333; /* Dark background color */
+    background-color: #57575B; /* Dark background color */
   
   }
   
 
   .ylapalkkki a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 1.2em;
     float: left;
     display: block;
-    color: white;
+    color: #D9D8E4;
     text-align: center;
     padding: 12px 20px;
     text-decoration: none;
@@ -35,14 +38,14 @@ body {
 
   /* Vaihtaa väriä kun hiiri on linkin päällä */
   .ylapalkkki a:hover {
-    background-color: #ddd;
-    color: black;
+    background-color: #D9D8E4;
+    color: #57575B;
   }
 
   .sivu {
       /* Sivun tausta */
-      background-color: #ddd;
-      box-shadow: 2px 2px 2px gray;
+      background-color: #B5B5B5;
+      box-shadow: 2px 2px 2px #57575B;
       display: flex;
       
       /* Teksti */
@@ -55,29 +58,35 @@ body {
     padding: 10px;
   }
 
-  .sivupalkki {
+  .sivupalkki{
     flex: 10%;
     margin: 12px;
     padding: 15px;
-    background-color: rgb(184, 184, 184);
-    box-shadow: 2px 2px 2px gray;
+    background-color: #D9D8E4;
+    box-shadow: 2px 2px 2px #57575B;
   }
 
-  .animevasen, .animekeski, .animeoikea{
+  .animet, .pelit{
     float: left;
     width: 33%;
   }
 
-  .animevasen img, .animeoikea img, .animekeski img {
+  .animet img {
     width: 110px;
     max-width: 87%;
   }
 
-  .animevasen p, .animekeski p, .animeoikea p {
+  .animet p {
     font-family: 'Open Sans Condensed', sans-serif;
     height: 30px;
     font-weight: 600;
     
+  }
+
+  .anime:after, .pelit:after {
+    content: "";
+    display: table;
+    clear: both;
   }
   
   
