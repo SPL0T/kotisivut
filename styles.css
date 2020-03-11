@@ -66,14 +66,18 @@ body {
     box-shadow: 2px 2px 2px #57575B;
   }
 
-  .animet, .pelit{
+  .animet{
     float: left;
     width: 33%;
   }
 
-  .animet img {
-    width: 110px;
-    max-width: 87%;
+  .pelit {
+    float: left;
+    width: 50%;
+  }
+
+  .animet img, .pelit img {
+    width: 87%;
   }
 
   .animet p {
