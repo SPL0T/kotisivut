@@ -3,7 +3,7 @@
 
 body {
     margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
 
 .header {
@@ -71,6 +71,13 @@ body {
   .animevasen img, .animeoikea img, .animekeski img {
     width: 110px;
     max-width: 87%;
+  }
+
+  .animevasen p, .animekeski p, .animeoikea p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    height: 30px;
+    font-weight: 600;
+    
   }
   
   
