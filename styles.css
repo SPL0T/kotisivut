@@ -61,5 +61,16 @@ body {
     padding: 15px;
     background-color: rgb(184, 184, 184);
     box-shadow: 2px 2px 2px gray;
-}
   }
+
+  .animevasen, .animekeski, .animeoikea{
+    float: left;
+    width: 33%;
+  }
+
+  .animevasen img, .animeoikea img, .animekeski img {
+    width: 110px;
+    max-width: 87%;
+  }
+  
+  
