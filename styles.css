@@ -72,9 +72,28 @@ body {
     width: 33%;
   }
 
-  .pelit {
+  .pelit,  {
     float: left;
     width: 50%;
+  }
+
+  .speksit {
+    float: left;
+    width: 33%;
+    background-color: #D9D8E4;
+    box-shadow: 2px 2px 2px #57575B;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 0 10px 20px 20px;
+    margin: 0 10px 0 20px;
+    line-height: 0.6em;
+  }
+
+  .kuvat {
+    float: right;
+    width: 60%;
+    max-width: 2000px;
+    height: 520px;
+    height: 100%;
   }
 
   .animet img {
@@ -92,17 +111,8 @@ body {
     
   }
 
-  .anime:after, .pelit:after {
+  .anime:after, .pelit:after, .speksit:after, .kuvat:after{
     content: "";
     display: table;
     clear: both;
   }
-
-  .speksit {
-    font-family: 'Open Sans Condensed', sans-serif;
-    padding: 0 0 0 40px;
-    line-height: 0.6em;
-  }
-
-  
-  
