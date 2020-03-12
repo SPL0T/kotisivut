@@ -72,7 +72,7 @@ body {
     width: 33%;
   }
 
-  .pelit,  {
+  .pelit  {
     float: left;
     width: 50%;
   }
@@ -84,7 +84,7 @@ body {
     box-shadow: 2px 2px 2px #57575B;
     font-family: 'Open Sans Condensed', sans-serif;
     padding: 0 10px 20px 20px;
-    margin: 0 10px 0 20px;
+    margin: 0 10px 10px 20px;
     line-height: 0.6em;
   }
 
@@ -92,7 +92,6 @@ body {
     float: right;
     width: 60%;
     max-width: 2000px;
-    height: 520px;
     height: 100%;
   }
 
@@ -115,4 +114,8 @@ body {
     content: "";
     display: table;
     clear: both;
+  }
+
+  .animu {
+    padding-top: 100px;
   }
