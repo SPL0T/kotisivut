@@ -98,7 +98,11 @@ body {
     clear: both;
   }
 
-  specsit
+  .speksit {
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 0 0 0 40px;
+    line-height: 0.6em;
+  }
 
   
   
