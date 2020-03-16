@@ -54,13 +54,13 @@ body {
   }
 
   .paapalkki {
-    flex: 90%;
+    width: 70%;
     padding: 10px 20px 0 ;
     text-align: left;
   }
 
   .sivupalkki{
-    flex: 10%;
+    width: 30%;
     margin: 12px;
     padding: 15px;
     background-color: #D9D8E4;
@@ -90,7 +90,7 @@ body {
 
   .kuvat {
     float: right;
-    width: 60%;
+    width: 57%;
     max-width: 2000px;
     height: 100%;
   }
@@ -100,7 +100,7 @@ body {
   }
   
   .pelit img  {
-    width: 95%;
+    width: 90%;
   }
 
   .animet p, .pelit {
