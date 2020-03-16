@@ -1,58 +1,6 @@
 
 
 
-body {
-    margin: 0;
-    font-family: 'Open Sans', sans-serif;
-  }
-
-.header {
-    padding: 60px;
-    text-align: center;
-    background-image: url();
-    color: white;
-    background-image: url("78a93be5038d9521df0be77b95c4b9a8.png");
-    background-color: #ff0000;
-}
-
-
-
-.ylapalkkki {
-    overflow: hidden; /* Hide overflow */
-    background-color: #57575B; /* Dark background color */
-  
-  }
-  
-
-  .ylapalkkki a {
-    font-family: 'Open Sans Condensed', sans-serif;
-    font-weight: 600;
-    font-size: 1.2em;
-    float: left;
-    display: block;
-    color: #D9D8E4;
-    text-align: center;
-    padding: 12px 20px;
-    text-decoration: none;
-  }
-
-  /* Vaihtaa väriä kun hiiri on linkin päällä */
-  .ylapalkkki a:hover {
-    background-color: #D9D8E4;
-    color: #57575B;
-  }
-
-  .sivu {
-      /* Sivun tausta */
-      background-color: #B5B5B5;
-      box-shadow: 2px 2px 2px #57575B;
-      display: flex;
-      
-      /* Teksti */
-      margin: 40px 25px;
-      text-align: center;
-  }
-
   .paapalkki {
     width: 70%;
     padding: 10px 20px 0 ;
@@ -119,3 +67,55 @@ body {
   .animu {
     padding-top: 100px;
   }
+
+/*Shared*/
+
+body {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+.shrheader {
+  padding: 60px;
+  text-align: center;
+  background-image: url();
+  color: white;
+  background-image: url("/images/78a93be5038d9521df0be77b95c4b9a8.png");
+}
+
+
+/*Links*/
+.shrlinks {
+  overflow: hidden;
+  background-color: #57575B;
+
+}
+.shrlinks a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: 600;
+  font-size: 1.2em;
+  float: left;
+  display: block;
+  color: #D9D8E4;
+  text-align: center;
+  padding: 12px 20px;
+  text-decoration: none;
+}
+/* Vaihtaa väriä kun hiiri on linkin päällä */
+.shrlinks a:hover {
+  background-color: #D9D8E4;
+  color: #57575B;
+}
+
+
+.shrpage {
+  /* Sivun tausta */
+  background-color: #B5B5B5;
+  box-shadow: 2px 2px 2px #57575B;
+  display: flex;
+  
+  /* Teksti */
+  margin: 40px 25px;
+  text-align: center;
+}
