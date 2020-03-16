@@ -1,30 +1,5 @@
 
 
-
-  .paapalkki {
-    width: 70%;
-    padding: 10px 20px 0 ;
-    text-align: left;
-  }
-
-  .sivupalkki{
-    width: 30%;
-    margin: 12px;
-    padding: 15px;
-    background-color: #D9D8E4;
-    box-shadow: 2px 2px 2px #57575B;
-  }
-
-  .animet{
-    float: left;
-    width: 33%;
-  }
-
-  .pelit  {
-    float: left;
-    width: 50%;
-  }
-
   .speksit {
     float: left;
     width: 33%;
@@ -40,12 +15,9 @@
     float: right;
     width: 57%;
     max-width: 2000px;
-    height: 100%;
   }
 
-  .animet img {
-    width: 87%;
-  }
+
   
   .pelit img  {
     width: 90%;
@@ -58,17 +30,14 @@
     
   }
 
-  .anime:after, .pelit:after, .speksit:after, .kuvat:after{
-    content: "";
-    display: table;
-    clear: both;
-  }
+
 
   .animu {
     padding-top: 100px;
   }
 
-/*Shared*/
+/* Shared */
+
 
 body {
   margin: 0;

@@ -8,6 +8,8 @@ page
 
 Index
 idx...
+mainbar
+sidebar
 
 Projektit
 prj...
