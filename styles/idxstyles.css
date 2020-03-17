@@ -18,12 +18,12 @@
     width: 10;
 }
 
-  .idxanimecover {
+  .column {
     float: left;
-    width: 13%;
+    width: 33%;
   }
 
-  .idxanimecovers img {
+  .column img {
     width: 87%;
   }
 
