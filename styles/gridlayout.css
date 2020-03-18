@@ -7,7 +7,7 @@ body {
 
 .grid-container {
   display: grid;
-grid-template-columns: repeat(99, [col] 1vw);
+grid-template-columns: repeat(100, [col] 1%);
 grid-template-rows: repeat(100, [row] auto  );
 font-size: 10px;
 text-align: center; 
@@ -30,7 +30,7 @@ text-align: center;
     font-size: 100px;
     font-weight: bolder;
 /*Grid stuff*/
-    grid-column: 1 / 100;
+    grid-column: 1 / 101;
     grid-row: 1;
 }
 
@@ -42,7 +42,7 @@ text-align: center;
     overflow: hidden;
     background-color: #40425a;
 /*Grid stuff*/
-    grid-column: 1 / 100;
+    grid-column: 1 / 101;
     grid-row: 2;
 }
 
@@ -73,7 +73,7 @@ Pääpalkki
     border-style: none none none solid;
     background-color: #6B6E96;
 /*Grid stuff*/
-    grid-column: 31 / 100;
+    grid-column: 31 / 101;
     grid-row: 3 / span 7;
 }
 
@@ -86,7 +86,7 @@ Pääpalkki
 
 .txt1 {
 /*Grid stuff*/
-    grid-column: 31 / 100;
+    grid-column: 31 / 101;
     grid-row: 3;
 }
 
@@ -105,9 +105,10 @@ Pääpalkki
 
 .setupkuva {
     margin-top: 20px;
+    margin-right: 20PX;
     text-align: left;
 /*Grid stuff*/
-    grid-column: 59 / 100;
+    grid-column: 59 / 101;
     grid-row: 4 / span 2;
 }
 
@@ -126,7 +127,7 @@ Pääpalkki
 .txt2 {
     padding-top: 20px;
 /*Grid stuff*/
-    grid-column: 31 / 100;
+    grid-column: 31 / 101;
     grid-row: 6;
 }
 
@@ -262,7 +263,7 @@ Footer
     border: 2px #27283a;
     border-style: solid none none none;
     /*Grid stuff*/
-        grid-column: 1 / 100;
+        grid-column: 1 / 101;
         grid-row: 10;
     }
 
@@ -278,60 +279,107 @@ projektit
     border-style: none none none solid;
     background-color: #6B6E96;
 /*Grid stuff*/
-    grid-column: 31 / 100;
+    grid-column: 32 / 101;
     grid-row: 3 / span 7;
 }
 
 .prsidebar {
-    background-color: #D9D8E4;
+background-color: #D9D8E4;
 /*Grid stuff*/
-    grid-column: 1 / span 30;
+    grid-column: 1 / span 32;
     grid-row: 3 / span 7;
 }
 
 .projekti-info {
-    background-color: #ff00006e;
         /*Grid stuff*/
         grid-column: 1 / span 30;
         grid-row: 3;
 }
 
-.projut {
+.projekti-info h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 5px;
+    font-size: 10em;
+    padding: 0 20px 40px 20px;
+}
+
+.projekti-info p {   
+    line-height: 1.2em;
+    font-size: 4em;
     padding: 0 20px 0 20px;
 }
 
-.projut img {
+.projut{
+    border-width: 0px 1px;
+    border-color: hsla(237, 20%, 19%);
+    border-style: solid;
+}
+
+.projut img{
     padding-top: 20px;
     max-width: 96%;
 }
 
-.projut h1 {
+.projut h1{
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 5px;
     font-size: 4em;
+    padding: 0 20px 0 20px;
 }
 
-.projut p {
+.projut p{
     font-size: 2em;
+    padding: 0 20px 0 20px;
+}
+
+.projut a{
+    overflow: hidden;
+    background-color: #40425a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    float: center;
+    display: block;
+    color: #D9D8E4;
+    text-align: center;
+    padding: 15px;
+    margin: 20px 0;
+    text-decoration: none;
+    border-width: 2px 0;
+    border-color: #27283a;
+    border-style: solid;
+}
+
+.noshow{
+    visibility: hidden;
+}
+
+.right {
+    border-width: 0 2px 0 1px;
+    border-color: #27283a;
+    border-style: solid;
+}
+
+/* Vaihtaa väriä kun hiiri on linkin päällä */
+.projut a:hover {
+    background-color: #D9D8E4;
+    color: #40425a;
 }
 
 .pr1 {
-    background-color: #e5ff006e;
         /*Grid stuff*/
-        grid-column: 31 / span 23;
+        grid-column: 32 / span 23;
         grid-row: 3;
 }
 
 .pr2 {
-    background-color: #09ff006e;
         /*Grid stuff*/
-        grid-column: 54 / span 23;
+        grid-column: 55 / span 23;
         grid-row: 3;
 }
 
 .pr3 {
-    background-color: #ff00006e;
     /*Grid stuff*/
-    grid-column: 77 / span 23;
+    grid-column: 78 / span 23;
     grid-row: 3;
 }
