@@ -7,7 +7,7 @@ body {
 
 .grid-container {
   display: grid;
-grid-template-columns: repeat(98, [col] 1vw);
+grid-template-columns: repeat(99, [col] 1vw);
 grid-template-rows: repeat(100, [row] auto  );
 font-size: 10px;
 text-align: center; 
@@ -265,3 +265,73 @@ Footer
         grid-column: 1 / 100;
         grid-row: 10;
     }
+
+
+
+
+
+/*
+projektit
+*/
+.prmainbar {
+    border: 2px #27283a;
+    border-style: none none none solid;
+    background-color: #6B6E96;
+/*Grid stuff*/
+    grid-column: 31 / 100;
+    grid-row: 3 / span 7;
+}
+
+.prsidebar {
+    background-color: #D9D8E4;
+/*Grid stuff*/
+    grid-column: 1 / span 30;
+    grid-row: 3 / span 7;
+}
+
+.projekti-info {
+    background-color: #ff00006e;
+        /*Grid stuff*/
+        grid-column: 1 / span 30;
+        grid-row: 3;
+}
+
+.projut {
+    padding: 0 20px 0 20px;
+}
+
+.projut img {
+    padding-top: 20px;
+    max-width: 96%;
+}
+
+.projut h1 {
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 5px;
+    font-size: 4em;
+}
+
+.projut p {
+    font-size: 2em;
+}
+
+.pr1 {
+    background-color: #e5ff006e;
+        /*Grid stuff*/
+        grid-column: 31 / span 23;
+        grid-row: 3;
+}
+
+.pr2 {
+    background-color: #09ff006e;
+        /*Grid stuff*/
+        grid-column: 54 / span 23;
+        grid-row: 3;
+}
+
+.pr3 {
+    background-color: #ff00006e;
+    /*Grid stuff*/
+    grid-column: 77 / span 23;
+    grid-row: 3;
+}
