@@ -3,7 +3,7 @@ body {
     font-family: 'Open Sans', sans-serif;
   }
 
-.layout, .animegrid{
+.layout{
     display: grid;
     grid-template-columns: repeat(100, [col] 1vw);
     grid-template-rows: repeat(10, [row] auto  );
@@ -73,37 +73,41 @@ body {
     grid-column: 1 / span 30;
 }
 
-.agridul {
+.agrid {
+    width: 33%;
+}
+
+.ul {
     grid-row: 3;
     grid-column: 1 / span 10;
 
 }
 
-.agridum {
+.um {
     grid-row: 3;
     grid-column: 2;
 }
 
-.agridur {
+.ur {
     grid-row: 3;
     grid-column: 3;
 }
 
-.agriddl {
+.dl {
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 1;
     grid-column-end: 1;
 }
 
-.agriddm {
+.dm {
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 2;
     grid-column-end: 2;
 }
 
-.agriddr {
+.dr {
     grid-row-start: 2;
     grid-row-end: 2;
     grid-column-start: 3;

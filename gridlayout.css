@@ -1,0 +1,267 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #40425a;
+  }
+
+
+.grid-container {
+  display: grid;
+grid-template-columns: repeat(98, [col] 1vw);
+grid-template-rows: repeat(100, [row] auto  );
+font-size: 10px;
+text-align: center; 
+}
+
+/*Header*/
+.header {
+    border-radius: 0 0 100px 0;
+    background-image: url(IMG_2213.JPG);
+    background-position: center;
+    background-size: 100%;
+    border: 2px #27283a;
+    border-style: none solid solid none;
+    margin-right: 50px;
+    color: white;
+    text-shadow: 4px 4px 1px #000000;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    padding: 0px 0 0px 50px;
+    font-size: 100px;
+    font-weight: bolder;
+/*Grid stuff*/
+    grid-column: 1 / 100;
+    grid-row: 1;
+}
+
+
+/*Linkit*/
+.links {
+    border: 2px #27283a;
+    border-style: none none solid none;
+    overflow: hidden;
+    background-color: #40425a;
+/*Grid stuff*/
+    grid-column: 1 / 100;
+    grid-row: 2;
+}
+
+.links a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    float: left;
+    display: block;
+    color: #D9D8E4;
+    text-align: center;
+    padding: 12px 20px;
+    text-decoration: none;
+}
+
+/* Vaihtaa väriä kun hiiri on linkin päällä */
+.links a:hover {
+    background-color: #D9D8E4;
+    color: #40425a;
+}
+
+
+/*
+Pääpalkki
+*/
+.mainbar {
+    border: 2px #27283a;
+    border-style: none none none solid;
+    background-color: #6B6E96;
+/*Grid stuff*/
+    grid-column: 31 / 100;
+    grid-row: 3 / span 7;
+}
+
+.teksti {
+    font-size: 1.4em;
+    line-height: 1.2em;
+    padding: 0 30px;
+
+}
+
+.txt1 {
+/*Grid stuff*/
+    grid-column: 31 / 100;
+    grid-row: 3;
+}
+
+.speksit {
+    background-color: rgba(217, 216, 228, 0.5);
+    font-family: 'Open Sans Condensed', sans-serif;
+    line-height: 1em;
+    font-size: 2em;
+    text-align: left;
+    padding: 10px 100px 10px 40px;
+    margin: 20px 40px;
+/*Grid stuff*/
+    grid-column: 31 / span 28;
+    grid-row: 4 / span 2;
+}
+
+.setupkuva {
+    margin-top: 20px;
+    text-align: left;
+/*Grid stuff*/
+    grid-column: 59 / 100;
+    grid-row: 4 / span 2;
+}
+
+.setupkuva img {
+    width: 80%;
+    border: 2px #27283a;
+}
+
+.setupkuva p {
+    padding-left: 15px;
+    line-height: 1px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.txt2 {
+    padding-top: 20px;
+/*Grid stuff*/
+    grid-column: 31 / 100;
+    grid-row: 6;
+}
+
+
+/*
+Sivupalkki
+*/
+.sidebar {
+    background-color: #D9D8E4;
+/*Grid stuff*/
+    grid-column: 1 / span 30;
+    grid-row: 3 / span 7;
+}
+
+.anime{
+/*Grid stuff*/
+    grid-column: 1 / span 30;
+    grid-row: 3;
+}
+
+.anime img, .games img {
+    width: 90%;
+    max-width: 400px;
+    margin: 30px 0 0 0;
+}
+
+.ac {
+    max-height: 320px;
+}
+
+.ac img {
+    width: 90%;
+}
+
+.gc img {
+    width: 93%;
+}
+
+.ac p, .gc p {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.ac1 {
+/*Grid stuff*/
+    grid-column: 1 / span 10;
+    grid-row: 4;
+}
+
+.ac2 {
+/*Grid stuff*/
+    grid-column: 11 / span 10;
+    grid-row: 4;
+}
+
+.ac3 {
+/*Grid stuff*/
+    grid-column: 21 / span 10;
+    grid-row: 4;
+}
+
+.ac4 {
+/*Grid stuff*/
+    grid-column: 1 / span 10;
+    grid-row: 5;
+}
+
+.ac5 {
+/*Grid stuff*/
+    grid-column: 11 / span 10;
+    grid-row: 5;
+}
+
+.ac6 {
+/*Grid stuff*/
+    grid-column: 21 / span 10;
+    grid-row: 5;
+}
+
+.games {
+/*Grid stuff*/
+    grid-column: 1 / span 30;
+    grid-row: 6;
+}
+
+.gc1 {
+/*Grid stuff*/
+    grid-column: 1 / span 15;
+    grid-row: 7;
+}
+
+.gc2 {
+/*Grid stuff*/
+    grid-column: 16 / span 15;
+    grid-row: 7;
+}
+
+.gc3 {
+/*Grid stuff*/
+    grid-column: 1 / span 15;
+    grid-row: 8;
+}
+
+.gc4 {
+/*Grid stuff*/
+    grid-column: 16 / span 15;
+    grid-row: 8;
+}
+
+.gc5 {
+/*Grid stuff*/
+    grid-column: 1 / span 15;
+    grid-row: 9;
+}
+
+.gc6 {
+/*Grid stuff*/
+    grid-column: 16 / span 15;
+    grid-row: 9;
+}
+
+
+/*
+Footer
+*/
+.footer {
+    background-color: #40425a;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    border: 2px #27283a;
+    border-style: solid none none none;
+    /*Grid stuff*/
+        grid-column: 1 / 100;
+        grid-row: 10;
+    }
