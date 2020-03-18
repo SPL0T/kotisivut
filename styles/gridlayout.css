@@ -129,7 +129,7 @@ Pääpalkki
     padding-top: 20px;
 /*Grid stuff*/
     grid-column: 31 / 101;
-    grid-row: 6;
+    grid-row: 6 / span 3;
 }
 
 
