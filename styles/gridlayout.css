@@ -18,7 +18,7 @@ text-align: center;
     border-radius: 0 0 100px 0;
     background-image: url(/images/IMG_2213.JPG);
     background-position: center;
-    background-size: 100%;
+    background-size: 101%;
     border: 2px #27283a;
     border-style: none solid solid none;
     margin-right: 50px;
@@ -265,45 +265,46 @@ Footer
     /*Grid stuff*/
         grid-column: 1 / 101;
         grid-row: 10;
+        max-height: 69px;
     }
 
-
+    .mainbar2 {
+        border: 2px #27283a;
+        border-style: none none none solid;
+        background-color: #6B6E96;
+    /*Grid stuff*/
+        grid-column: 32 / 101;
+        grid-row: 3 / span 7;
+    }
+    
+    .sidebar2 {
+    background-color: #D9D8E4;
+    /*Grid stuff*/
+        grid-column: 1 / span 32;
+        grid-row: 3 / span 7;
+    }
+    
 
 
 
 /*
 projektit
 */
-.prmainbar {
-    border: 2px #27283a;
-    border-style: none none none solid;
-    background-color: #6B6E96;
-/*Grid stuff*/
-    grid-column: 32 / 101;
-    grid-row: 3 / span 7;
-}
 
-.prsidebar {
-background-color: #D9D8E4;
-/*Grid stuff*/
-    grid-column: 1 / span 32;
-    grid-row: 3 / span 7;
-}
-
-.projekti-info {
+.projekti-info, .linkki-info{
         /*Grid stuff*/
         grid-column: 1 / span 30;
         grid-row: 3;
 }
 
-.projekti-info h1 {
+.projekti-info h1, .linkki-info h1 {
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 5px;
     font-size: 10em;
     padding: 0 20px 40px 20px;
 }
 
-.projekti-info p {   
+.projekti-info p, .linkki-info p {   
     line-height: 1.2em;
     font-size: 4em;
     padding: 0 20px 0 20px;
@@ -366,20 +367,53 @@ background-color: #D9D8E4;
     color: #40425a;
 }
 
-.pr1 {
+.mg1 {
         /*Grid stuff*/
         grid-column: 32 / span 23;
         grid-row: 3;
 }
 
-.pr2 {
+.mg2 {
         /*Grid stuff*/
         grid-column: 55 / span 23;
         grid-row: 3;
 }
 
-.pr3 {
+.mg3 {
     /*Grid stuff*/
     grid-column: 78 / span 23;
     grid-row: 3;
+}
+
+.somet {
+    font-family: 'Open Sans Condensed', sans-serif;
+    margin: 50px 25px 50px 25px;
+    font-size: 60px;
+    line-height: 0;
+    fill: white;
+    color: white;
+}
+
+.somet a {
+    text-decoration: none;
+    color: white;
+}
+
+.discord:hover {
+    color: #7289da;
+    fill: #7289da;
+}
+
+.youtube:hover, .youtube a:hover {
+    color: #ff0000;
+    fill: #ff0000;
+}
+
+.github:hover, .github a:hover{
+    color: #333;
+    fill: #333;
+}
+
+i {
+    font-style: normal;
 }
