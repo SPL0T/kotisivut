@@ -80,7 +80,8 @@ Pääpalkki
 .teksti {
     font-size: 1.4em;
     line-height: 1.2em;
-    padding: 0 30px;
+    padding: 0 60px;
+    text-align: left;
 
 }
 
