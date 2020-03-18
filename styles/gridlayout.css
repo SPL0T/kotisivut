@@ -172,6 +172,11 @@ Sivupalkki
     font-weight: bold;
 }
 
+.gc a, .ac a {
+    text-decoration: none;
+    color: black;
+}
+
 .ac1 {
 /*Grid stuff*/
     grid-column: 1 / span 10;
