@@ -16,7 +16,7 @@ text-align: center;
 /*Header*/
 .header {
     border-radius: 0 0 100px 0;
-    background-image: url('../images/header.JPG');
+    background-image: url('../images/header.jpg');
     background-position: center;
     background-size: 101%;
     border: 2px #27283a;
@@ -330,12 +330,12 @@ projektit
 .projut h1{
     font-family: 'Open Sans Condensed', sans-serif;
     line-height: 5px;
-    font-size: 4em;
+    font-size: 3em;
     padding: 0 20px 0 20px;
 }
 
 .projut p{
-    font-size: 2em;
+    font-size: 1.5em;
     padding: 0 20px 0 20px;
 }
 
