@@ -103,6 +103,7 @@ Pääpalkki
     font-size: 2.0em;
     text-align: left;
     padding: 10px 20px 10px 40px;
+    border-radius: 30px 30px 30px 75px;
     margin: 20px 40px;
 /*Grid stuff*/
     grid-column: 31 / span 28;
@@ -121,10 +122,11 @@ Pääpalkki
 .setupkuva img {
     width: 80%;
     border: 2px #27283a;
+    border-radius: 30px 30px 30px 75px;
 }
 
 .setupkuva p {
-    padding-left: 15px;
+    padding-left: 75px;
     line-height: 1px;
     font-size: 15px;
     font-weight: bold;
@@ -478,26 +480,31 @@ i {
     
     .txt1 {
     /*Grid stuff*/
-        padding:  0 20px 0 20px;
+    background-color: rgba(149, 145, 184, 0.548);
+        margin:  40px 20px 0 20px;
+        border-radius: 2vw 2vw 10.5vw 2vw;
+        box-shadow: 2px 2px 4px #40425a;
         grid-column: 1 / 101;
         grid-row: 3;
     }
     
     .speksit {
-        background-color: rgba(217, 216, 228, 0.5);
+        background-color: rgba(217, 216, 228, 0.76);
         font-family: 'Open Sans Condensed', sans-serif;
         line-height: 1.2em;
         font-size: 2.0em;
         text-align: left;
         padding: 10px 20px 10px 40px;
-        margin: 20px 20px;
+        margin: 10px 20px 20px 20px;
+        border-radius: 2vw 2vw 10.5vw 2vw;
+        box-shadow: 2px 2px 4px #40425a;
     /*Grid stuff*/
         grid-column: 1 / 101;
         grid-row: 5;
     }
     
     .setupkuva {
-        margin: 20px 20px 0 20px;
+        margin: 40px 20px 0px 20px;
         text-align: left;
     /*Grid stuff*/
         grid-column: 1 / 101;
@@ -507,18 +514,24 @@ i {
     .setupkuva img {
         width: 100%;
         border: 2px #27283a;
+        border-radius: 2vw 2vw 2vw 10.5vw;
+        box-shadow: -2px 2px 4px #40425a;
     }
     
     .setupkuva p {
-        padding-left: 15px;
+        padding-left: 70px;
         line-height: 1px;
         font-size: 15px;
         font-weight: bold;
     }
     
     .txt2 {
+        background-color: rgba(149, 145, 184, 0.548);
+        margin:  20px 20px 40px 20px;
+        border-radius: 2vw 2vw 2vw 10.5vw;
         padding-top: 0px;
         padding-bottom: 10px;
+        box-shadow: -2px 2px 4px #40425a;
     /*Grid stuff*/
         grid-column: 1 / 101;
         grid-row: 6;
@@ -731,9 +744,10 @@ i {
     }
     
     .mg1 {
-            /*Grid stuff*/
-            grid-column: 1 / 101;
-            grid-row: 4;
+        padding-top: 40px;
+        /*Grid stuff*/
+        grid-column: 1 / 101;
+        grid-row: 4;
     }
     
     .mg2 {
@@ -785,4 +799,4 @@ i {
     
     i {
         font-style: normal;
-    }
+    }}
