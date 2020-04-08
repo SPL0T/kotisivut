@@ -2,6 +2,7 @@ body {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
     background-color: #40425a;
+    color: #181a2b;
   }
 
 
@@ -15,23 +16,27 @@ text-align: center;
 
 /*Header*/
 .header {
-    border-radius: 0 0 100px 0;
+    border-radius: 0 0 5.5vw 0;
     background-image: url('../images/header.jpg');
     background-position: center;
     background-size: 101%;
     border: 2px #27283a;
     border-style: none solid solid none;
-    margin-right: 50px;
+    margin-right: 3vw;
     color: white;
     text-shadow: 4px 4px 1px #000000;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    padding: 0px 0 0px 50px;
-    font-size: 100px;
+    padding: 0px 0 0px 3vw;
     font-weight: bolder;
 /*Grid stuff*/
     grid-column: 1 / 101;
     grid-row: 1;
+}
+
+.header p {
+    margin: 30px 0;
+    font-size: 10vw;
 }
 
 
@@ -305,14 +310,15 @@ projektit
 
 .projekti-info h1, .linkki-info h1 {
     font-family: 'Open Sans Condensed', sans-serif;
-    line-height: 5px;
+margin: 0;
     font-size: 10em;
-    padding: 0 20px 40px 20px;
+    padding: 0 20px 30px 20px;
 }
 
 .projekti-info p, .linkki-info p {   
     line-height: 1.2em;
     font-size: 4em;
+    margin: 0;
     padding: 0 20px 0 20px;
 }
 
@@ -329,13 +335,14 @@ projektit
 
 .projut h1{
     font-family: 'Open Sans Condensed', sans-serif;
-    line-height: 5px;
     font-size: 3em;
+    margin: 0;
     padding: 0 20px 0 20px;
 }
 
 .projut p{
     font-size: 1.5em;
+    margin-top: 0;
     padding: 0 20px 0 20px;
 }
 
@@ -395,9 +402,13 @@ projektit
     font-family: 'Open Sans Condensed', sans-serif;
     margin: 50px 25px 50px 25px;
     font-size: 60px;
-    line-height: 0;
     fill: white;
     color: white;
+}
+
+.somet p {
+    margin: 0;
+    text-align: center;
 }
 
 .somet a {
@@ -423,3 +434,355 @@ projektit
 i {
     font-style: normal;
 }
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    /*Header*/
+    .header {
+        border-radius: 0 0 10.5vw 0;
+        background-position: center;
+        background-size: 101% auto;
+        margin-right: 5vw;
+        padding: 0px 0 0px 5vw;
+    /*Grid stuff*/
+        grid-column: 1 / 101;
+        grid-row: 1;
+    }
+    
+    /*
+    Pääpalkki
+    */
+    .mainbar {
+        border-style: none none solid none;
+    /*Grid stuff*/
+        grid-column: 1 / 101;
+        grid-row: 3 / span 4;
+    }
+    
+    .teksti {
+        font-size: 1.4em;
+        line-height: 1.2em;
+        padding: 0 60px;
+        text-align: left;
+    
+    }
+    
+    .txt1 {
+    /*Grid stuff*/
+        padding:  0 20px 0 20px;
+        grid-column: 1 / 101;
+        grid-row: 3;
+    }
+    
+    .speksit {
+        background-color: rgba(217, 216, 228, 0.5);
+        font-family: 'Open Sans Condensed', sans-serif;
+        line-height: 1.2em;
+        font-size: 2.0em;
+        text-align: left;
+        padding: 10px 20px 10px 40px;
+        margin: 20px 20px;
+    /*Grid stuff*/
+        grid-column: 1 / 101;
+        grid-row: 5;
+    }
+    
+    .setupkuva {
+        margin: 20px 20px 0 20px;
+        text-align: left;
+    /*Grid stuff*/
+        grid-column: 1 / 101;
+        grid-row: 4;
+    }
+    
+    .setupkuva img {
+        width: 100%;
+        border: 2px #27283a;
+    }
+    
+    .setupkuva p {
+        padding-left: 15px;
+        line-height: 1px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    
+    .txt2 {
+        padding-top: 0px;
+        padding-bottom: 10px;
+    /*Grid stuff*/
+        grid-column: 1 / 101;
+        grid-row: 6;
+    }
+    
+    
+    /*
+    Sivupalkki
+    */
+    .sidebar {
+        background-color: #D9D8E4;
+    /*Grid stuff*/
+        grid-column: 1 / 101;
+        grid-row: 7 / span 7;
+    }
+    
+    .anime{
+    /*Grid stuff*/
+        grid-column: 1 / 101;
+        grid-row: 7;
+    }
+    
+    .anime img, .games img {
+        width: 93.8%;
+        margin: 20px 11px 0 0;
+    }
+
+    .ac {
+        max-height: none;
+    }
+    
+    .ac img, .gc img {
+        width: 90%;
+    }
+    
+    .ac1 {
+    /*Grid stuff*/
+        grid-column: 1 / span 33;
+        grid-row: 8;
+    }
+    
+    .ac2 {
+    /*Grid stuff*/
+        grid-column: 33 / span 33;
+        grid-row: 8;
+    }
+    
+    .ac3 {
+    /*Grid stuff*/
+        grid-column: 65 / span 33;
+        grid-row: 8;
+    }
+    
+    .ac4 {
+    /*Grid stuff*/
+        grid-column: 1 / span 33;
+        grid-row: 9;
+    }
+    
+    .ac5 {
+    /*Grid stuff*/
+        grid-column: 33 / span 33;
+        grid-row: 9;
+    }
+    
+    .ac6 {
+    /*Grid stuff*/
+        grid-column: 65 / span 33;
+        grid-row: 9;
+    }
+    
+    .games {
+    /*Grid stuff*/
+        grid-column: 1 / 101;
+        grid-row: 10;
+    }
+    
+    .gc1 {
+    /*Grid stuff*/
+        grid-column: 1 / span 33;
+        grid-row: 11;
+    }
+    
+    .gc2 {
+    /*Grid stuff*/
+        grid-column: 33 / span 33;
+        grid-row: 11;
+    }
+    
+    .gc3 {
+    /*Grid stuff*/
+        grid-column: 65 / span 33;
+        grid-row: 11;
+    }
+    
+    .gc4 {
+    /*Grid stuff*/
+        grid-column: 1 / span 33;
+        grid-row: 12;
+    }
+    
+    .gc5 {
+    /*Grid stuff*/
+        grid-column: 33 / span 33;
+        grid-row: 12;
+    }
+    
+    .gc6 {
+    /*Grid stuff*/
+        grid-column: 65 / span 33;
+        grid-row: 12;
+    }
+    
+    
+    /*
+    Footer
+    */
+    .footer {
+        /*Grid stuff*/
+            grid-column: 1 / 101;
+            grid-row: 13;
+            max-height: 69px;
+        }
+    
+        .mainbar2 {
+            border-style: solid none none none;
+        /*Grid stuff*/
+            grid-column: 1 / 101;
+            grid-row: 4 / span 7;
+        }
+        
+        .sidebar2 {
+        background-color: #D9D8E4;
+        /*Grid stuff*/
+            grid-column: 1 / span 101;
+            grid-row: 3;
+        }
+        
+    
+    
+    
+    /*
+    projektit
+    */
+    
+    .projekti-info, .linkki-info{
+        padding-bottom: 10px;
+            /*Grid stuff*/
+            grid-column: 1 / 101;
+            grid-row: 3;
+    }
+    
+    .projekti-info h1, .linkki-info h1 {
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-size: 4em;
+        padding: 10px;
+    }
+    
+    .projekti-info p, .linkki-info p {   
+        line-height: 1.2em;
+        font-size: 2em;
+        padding: 0 20px 0 20px;
+    }
+    
+    .projut{
+        border-width: 0px 1px;
+        border-color: hsla(237, 20%, 19%);
+        border-style: solid;
+    }
+    
+    .projut img{
+        padding-top: 20px;
+        max-width: 88vw;
+        margin: 0 20px 0 20px;
+    }
+    
+    .projut h1{
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+    
+    .projut p{
+        font-size: 1.5em;
+        padding: 0 20px 0 20px;
+    }
+    
+    .projut a{
+        overflow: hidden;
+        background-color: #40425a;
+        font-family: 'Open Sans Condensed', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        float: center;
+        display: block;
+        color: #D9D8E4;
+        text-align: center;
+        padding: 15px;
+        margin: 20px 0;
+        text-decoration: none;
+        border-width: 2px 0;
+        border-color: #27283a;
+        border-style: solid;
+    }
+    
+    .noshow{
+        display: none;
+    }
+    
+    .right {
+        border-width: 0;
+    }
+    
+    .mg1 {
+            /*Grid stuff*/
+            grid-column: 1 / 101;
+            grid-row: 4;
+    }
+    
+    .mg2 {
+            /*Grid stuff*/
+            grid-column: 1 / span 101;
+            grid-row: 5;
+    }
+    
+    .mg3 {
+        /*Grid stuff*/
+        grid-column: 1 / span 101;
+        grid-row: 6;
+    }
+    
+
+    /*
+    Somet
+    */
+    .somet {
+        font-family: 'Open Sans Condensed', sans-serif;
+        margin: 10px 20px 10px 20px;
+        font-size: 60px;
+        line-height: 1em;
+        fill: white;
+        color: white;
+    }
+
+
+    
+    .somet a {
+        text-decoration: none;
+        color: white;
+    }
+    
+    .discord:hover {
+        color: #7289da;
+        fill: #7289da;
+    }
+    
+    .youtube:hover, .youtube a:hover {
+        color: #ff0000;
+        fill: #ff0000;
+    }
+    
+    .github:hover, .github a:hover{
+        color: #333;
+        fill: #333;
+    }
+    
+    i {
+        font-style: normal;
+    }
