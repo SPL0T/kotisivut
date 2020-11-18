@@ -724,79 +724,34 @@ Sivupalkki
     */
     
     .projekti-info, .linkki-info{
-        padding-bottom: 10px;
             /*Grid stuff*/
             grid-column: 1 / 101;
             grid-row: 3;
     }
-    
-    .projekti-info h1, .linkki-info h1 {
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-size: 4em;
-        padding: 10px;
+
+    .projut {
+        padding: 0 0 65px 0;
     }
-    
-    .projekti-info p, .linkki-info p {   
-        line-height: 1.2em;
-        font-size: 2em;
-        padding: 0 20px 0 20px;
+
+    .projut h1 {
+        font-size: 12vw;
     }
-    
-    .projut{
-        border-width: 0px 1px;
-        border-color: hsla(237, 20%, 19%);
-        border-style: solid;
+
+    .projut img {
+        max-width: 83vw;
+        border-radius: 50px;
+        margin: 0;
     }
-    
-    .projut img{
-        padding-top: 20px;
-        max-width: 88vw;
-        margin: 0 20px 0 20px;
-    }
-    
-    .projut h1{
-        font-family: 'Open Sans Condensed', sans-serif;
-    }
-    
-    .projut p{
-        font-size: 1.5em;
-        padding: 0 20px 0 20px;
-    }
-    
-    .projut a{
-        overflow: hidden;
-        background-color: #40425a;
-        font-family: 'Open Sans Condensed', sans-serif;
-        font-weight: 600;
-        font-size: 20px;
-        float: center;
-        display: block;
-        color: #D9D8E4;
-        text-align: center;
-        padding: 15px;
-        margin: 20px 0;
-        text-decoration: none;
-        border-width: 2px 0;
-        border-color: #27283a;
-        border-style: solid;
-    }
-    
-    .noshow{
-        display: none;
-    }
-    
-    .right {
-        border-width: 0;
-    }
-    
+
     .mg1 {
-        padding-top: 40px;
+border-radius: 50px 50px 70px 50px;
         /*Grid stuff*/
         grid-column: 1 / 101;
         grid-row: 4;
     }
     
     .mg2 {
+        border-radius: 50px 50px 50px 70px;
             /*Grid stuff*/
             grid-column: 1 / span 101;
             grid-row: 5;
